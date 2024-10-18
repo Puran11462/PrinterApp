@@ -4,6 +4,10 @@
 public class PrinterApp {
 
     public static void main(String[] args) {
+        int multiplication;
+        int addition;
+        int subtraction;
+        double division;
         System.out.println("PrinterApp");
         System.out.println("This app is made by:");
         String creator="Puran Karki";
@@ -13,14 +17,18 @@ public class PrinterApp {
         //System.out.println(number1);
         System.out.println("The value of number1 is: "+number1);
         System.out.println("The value of number2 is: "+number2);
-        int sum=number1+number2;    
-        int multiplication;
         multiplication=number1*number2;
-        System.out.println(multiplication);
+        System.out.println("The multiplication is: "+multiplication);
         System.out.println(number1+" * "+number2+" = "+multiplication);
-        int aadition;
-        int subtraction;
-        double division;
+        addition=number1+number2;
+        System.out.println("The value of addition is: "+addition);
+        subtraction=number1-number2;
+        System.out.println("The value of subtraction is: "+subtraction);
+        division=(double)number1/number2;
+        System.out.println("The value of division is: "+division);
+        System.out.println(number1+" + "+number2+" = "+addition);
+        System.out.println(number1+" - "+number2+" = "+subtraction);
+        System.out.println(number1+" / "+number2+" = "+division);
 
     }
 }
