@@ -12,6 +12,9 @@ public class PrinterApp {
         int number2=13;
         //System.out.println(number1);
         System.out.println("The value of number1 is: "+number1);
+        System.out.println("The value of number2 is: "+number2);
+        int sum=number1+number2;    
+        int multiplication;
 
 
     }
